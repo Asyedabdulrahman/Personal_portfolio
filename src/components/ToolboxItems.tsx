@@ -13,6 +13,8 @@ export const ToolboxItems = ({
     className?: string;
     itemsWrapperClassName?: string;
   }[];
+  className?: string; //configured this line by googling error
+  itemsWrapperClassName?: string; //configured this line by googling error
 }) => {
   return (
     <div
