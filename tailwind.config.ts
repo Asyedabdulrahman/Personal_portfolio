@@ -25,8 +25,35 @@ const config: Config = {
         sans: "var(--font-sans)",
         serif: "var(--font-serif)",
       },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        "move-left": {
+          "0%": {
+            transform: "translateX(0%)",
+          },
+          "100%": {
+            transform: "translateX(-50%)",
+          },
+        },
+        "move-right": {
+          "0%": {
+            transform: "translateX(-50%)",
+          },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
+      },
+      animation: {
+        "move-left": "move-left 30s linear infinite",
+        "move-right": "move-right 30s linear infinite",
+      },
     },
   },
   plugins: [],
 };
+
 export default config;

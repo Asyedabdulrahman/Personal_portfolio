@@ -1,3 +1,4 @@
+"use client";
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
@@ -45,6 +46,30 @@ const portfolioProjects = [
     link: "https://youtu.be/Z7I5uSRHMHg",
     image: aiStartupLandingPage,
   },
+  {
+    company: "Quantum Dynamics",
+    year: "2023",
+    title: "AI Startup Landing Page",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://youtu.be/Z7I5uSRHMHg",
+    image: aiStartupLandingPage,
+  },
+  {
+    company: "Quantum Dynamics",
+    year: "2023",
+    title: "AI Startup Landing Page",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://youtu.be/Z7I5uSRHMHg",
+    image: aiStartupLandingPage,
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -57,20 +82,14 @@ export const ProjectsSection = () => {
             title=" Featured Projects"
             description="See how i transformed real world experience into digital experience"
           />
-          {/* <p className="uppercase text-center font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-transparent">
-            Real world project
-          </p>
-          <h2 className="font-serif md:text-5xl text-3xl text-center mt-6">
-            Featured Projects
-          </h2>
-          <p className="text-white/60 md:text-lg text-center mt-4 mx-auto max-w-md lg:text-xl">
-            See how i transformed real world experience into digital experience
-          </p> */}
           <div className="flex flex-col mt-10 gap-20 md:mt-20 ">
-            {portfolioProjects.map((project) => (
+            {portfolioProjects.map((project, projectIndex) => (
               <Card
                 key={project.title}
-                className="px-8 pt-8 pb-0  after:pointer-events-none md:pt-12 md:px-10 lg:pt-16 lg:px-20 "
+                className="px-8 pt-8 pb-0 after:pointer-events-none md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
+                style={{
+                  top: `calc(84px + ${projectIndex * 40}px`,
+                }}
               >
                 <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                   <div className="lg:pb-16">
