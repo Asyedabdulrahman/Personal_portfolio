@@ -8,7 +8,7 @@ import SparkleIcon from "@/assets/icons/sparkle.svg";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-50 relative z-0">
+    <div className="py-32 md:py-48 lg:py-50 relative z-0" id="heroSection">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_1%,black_68%,transparent)]">
         <div
           className="absolute inset-0 -z-30 opacity-5"
