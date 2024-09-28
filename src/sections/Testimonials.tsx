@@ -24,7 +24,7 @@ const testimonials = [
     name: "Jyothi Prakash",
     position: "Technical Lead at Talentship Technologies",
     text: "Working with Syed was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
-    avatar: memojiAvatar4,
+    avatar: jp,
   },
   {
     name: "Hareesh Rajendran",
