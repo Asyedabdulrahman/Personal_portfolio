@@ -29,7 +29,7 @@ export const ToolboxItems = ({
           itemsWrapperClassName
         )}
       >
-        {[...new Array(2)].fill(0).map((_, index) => (
+        {[...Array(2)].map((_, index) => (
           <Fragment key={index}>
             {toolboxItems.map((item) => (
               <div

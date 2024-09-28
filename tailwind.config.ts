@@ -31,20 +31,12 @@ const config: Config = {
           "100%": { transform: "translateX(-100%)" },
         },
         "move-left": {
-          "0%": {
-            transform: "translateX(0%)",
-          },
-          "100%": {
-            transform: "translateX(-50%)",
-          },
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
         },
         "move-right": {
-          "0%": {
-            transform: "translateX(-50%)",
-          },
-          "100%": {
-            transform: "translateX(0%)",
-          },
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(100%)" },
         },
       },
       animation: {

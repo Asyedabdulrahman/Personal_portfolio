@@ -11,6 +11,7 @@ import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import { TechIcon } from "@/components/TechIcon";
 import mapImage from "@/assets/images/map.png";
+import chennaiImage from "@/assets/images/Screenshot (319).png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
@@ -115,18 +116,18 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="my Toolbox"
-                description="explore the books shaping ny perspective"
+                description="explore the books shaping my perspective"
                 className=""
               />
               <ToolboxItems
                 toolboxItems={toolboxItems}
                 className=""
-                itemsWrapperClassName="animate-move-left [animation-duration:20s]"
+                itemsWrapperClassName=""
               />
               <ToolboxItems
                 toolboxItems={toolboxItems}
-                className="mt-6"
-                itemsWrapperClassName="animate-move-right [animation-duration:20s]"
+                className=""
+                itemsWrapperClassName=""
               />
             </Card>
           </div>
@@ -159,7 +160,7 @@ export const AboutSection = () => {
             </Card>
             <Card className="h-[320px] p-0 relative  md:col-span-2 lg:col-span-1">
               <Image
-                src={mapImage}
+                src={chennaiImage}
                 alt="mapImage"
                 className="h-full w-full object-cover object-left-top"
               />
