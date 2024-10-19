@@ -143,11 +143,11 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto ">
           <h1 className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl">
-            Building Exceptional user experiences
+            Syed Abdul Rahman
           </h1>
           <p className="mt-4 text-center text-white/60 capitalize md:text-lg">
             I specialise in transforming design into functional,
-            high-performance web applications, lets discuss your next project
+            high-performance web applications.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 flex-wrap">
@@ -155,10 +155,16 @@ export const HeroSection = () => {
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown classname="size-6" />
           </button>
-          <button className="inline-flex items-center gap-2 border border-white text-gray-900 bg-white h-12 px-6 rounded-xl">
-            <span>👋</span>
-            <span className="font-semibold">Lets Connect</span>
-          </button>
+          <a
+            href="https://syed-frontend-resume.tiiny.site/"
+            target="_blank"
+            className="relative z-50"
+          >
+            <button className="inline-flex items-center gap-2 border border-white text-gray-900 bg-white h-12 px-6 rounded-xl">
+              <span>👋</span>
+              <span className="font-semibold">More About Me</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>

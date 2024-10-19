@@ -35,13 +35,13 @@ const testimonials = [
   {
     name: "Roja Gnanavel",
     position: "Front-End web Developer at Wipro",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    text: "Syed ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
     avatar: roja,
   },
   {
     name: "Chandru",
     position: "Colleague",
-    text: "Syed's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+    text: "Syed work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
     avatar: memojiAvatar5,
   },
 ];
