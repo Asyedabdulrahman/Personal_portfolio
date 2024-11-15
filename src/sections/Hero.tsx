@@ -161,8 +161,7 @@ export const HeroSection = () => {
             className="relative z-50"
           >
             <button className="inline-flex items-center gap-2 border border-white text-gray-900 bg-white h-12 px-6 rounded-xl">
-              <span>👋</span>
-              <span className="font-semibold">More About Me</span>
+              <span className="font-semibold">About Me | Resume</span>
             </button>
           </a>
         </div>

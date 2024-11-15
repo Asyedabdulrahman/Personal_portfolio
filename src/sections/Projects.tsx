@@ -20,8 +20,8 @@ const portfolioProjects = [
     title: "LAMA E-Commerce",
     results: [
       { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "LCP improvement: Reduced from 3s to 1.5s." },
+      { title: "Acheived 100% on SEO" },
     ],
     link: "https://ecommerce-inky-pi.vercel.app/",
     image: eCommerce,
@@ -31,8 +31,8 @@ const portfolioProjects = [
     year: "2024",
     title: "Learning Management System",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
+      { title: "Fast Initial Load FCP: 1.2s" },
+      { title: "Excellent Layout Stability CLS: 0.01" },
       { title: "Increased brand awareness by 15%" },
     ],
     link: "https://learning-management-system-beryl.vercel.app/courses",
